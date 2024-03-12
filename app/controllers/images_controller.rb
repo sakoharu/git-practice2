@@ -1,5 +1,6 @@
 class ImagesController < ApplicationController
   def new
+    @post_image = Image.new
   end
 
   def index
